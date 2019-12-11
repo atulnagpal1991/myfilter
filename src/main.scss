@@ -2,7 +2,6 @@
 *:focus { outline: none !important; box-shadow: none !important; }
 body { font-size: 14px; color: #666; background: #fefefe; }
 
-
 /*Employees Css Start*/
 .company-employees { width: calc(100% - 65px); margin-left: 65px;
 	.employee-details { margin: 10px 0;
@@ -16,11 +15,9 @@ body { font-size: 14px; color: #666; background: #fefefe; }
 	}
 }
 
-
 /*Filters Css Start*/
-.selected-filters {
-	.badge + .badge { margin-left: 10px; }
-	.close-filter img {width: 10px; margin: 5px; cursor: pointer;}
+.selected-filters { .badge + .badge { margin-left: 10px; }
+	.close-filter img { width: 10px; margin: 5px; cursor: pointer; }
 }
 .search-name { input { max-width: 230px; border-radius: 0.25rem 0 0 0.25rem; float: left; }
 	button { border-radius: 0 0.25rem 0.25rem 0; }
@@ -40,7 +37,6 @@ body { font-size: 14px; color: #666; background: #fefefe; }
 	div[class^="filter"] { padding: 10px 0; border-top: 1px solid #ccc; }
 }
 
-
 /*Sidebar Css Start*/
 .sidebar { position: fixed; left: 0; top: 0; bottom: 0; z-index: 999;
 	.sidenav---sidenav---_2tBP { width: 64px; overflow: hidden; transition: .5s; background-color: rgba(0, 0, 0, 0.9); color: #fff; }
@@ -48,7 +44,6 @@ body { font-size: 14px; color: #666; background: #fefefe; }
 		.filter-options { display: block; }
 	}
 }
-
 
 /*Custom Checkbox & Radio Css Start */
 .styled-checkbox { input { position: absolute; opacity: 0;
@@ -61,5 +56,3 @@ body { font-size: 14px; color: #666; background: #fefefe; }
 		&:disabled + label:before { background: #ddd; }
 	}
 }
-
-
